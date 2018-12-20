@@ -45,7 +45,7 @@ public class SimpleActivity extends AppCompatActivity {
         }
     }
 
-    @OnClick({R.id.simple_list_1, R.id.simple_list_2, R.id.simple_detail_1, R.id.simple_detail_2, R.id.simple_player})
+    @OnClick({R.id.simple_list_1, R.id.simple_list_2, R.id.simple_detail_1, R.id.simple_detail_2, R.id.simple_player,R.id.simple_detail_3})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.simple_player:
@@ -62,6 +62,9 @@ public class SimpleActivity extends AppCompatActivity {
                 break;
             case R.id.simple_detail_2:
                 startActivity(new Intent(this, SimpleDetailActivityMode2.class));
+                break;
+            case R.id.simple_detail_3:
+                startActivity(new Intent(this, HPActivity.class));
                 break;
         }
     }
