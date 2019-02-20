@@ -73,7 +73,7 @@ public class DetailExoListPlayer2 extends GSYBaseActivityDetail<GSYExo2PlayerVie
             @Override
             public void onClick(View view, boolean lock) {
                 if (orientationUtils != null) {
-                    //配合下方的onConfigurationChanged //
+                    //配合下方的onConfigurationChanged ////
                     orientationUtils.setEnable(!lock);
                 }
             }
