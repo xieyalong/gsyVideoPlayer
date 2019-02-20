@@ -50,6 +50,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="简单详情2" />
-
+        <Button
+            android:id="@+id/simple_detail_3"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="直接横屏" />
     </LinearLayout>
 </ScrollView>
