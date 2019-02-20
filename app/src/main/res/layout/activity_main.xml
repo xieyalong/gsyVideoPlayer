@@ -200,8 +200,13 @@
             android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="自定义Exo" />
-
+            android:text="自定义Exo-播放下一个" />
+        <Button
+            android:id="@+id/open_custom_exo2"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="自定义Exo-横竖屏播放下一个" />
         <Button
             android:id="@+id/clear_cache"
             android:layout_width="240dp"

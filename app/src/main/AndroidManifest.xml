@@ -149,6 +149,10 @@
             android:name=".exo.DetailExoListPlayer"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".exo.DetailExoListPlayer2"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
 
         <activity
             android:name=".simple.SimplePlayer"
