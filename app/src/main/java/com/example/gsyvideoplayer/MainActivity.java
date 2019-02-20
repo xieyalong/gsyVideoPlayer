@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.gsyvideoplayer.exo.DetailExoListPlayer;
+import com.example.gsyvideoplayer.exo.DetailExoListPlayer2;
 import com.example.gsyvideoplayer.simple.SimpleActivity;
 import com.example.gsyvideoplayer.utils.JumpUtils;
 import com.shuyu.gsyvideoplayer.GSYVideoManager;
@@ -55,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick({R.id.open_btn, R.id.list_btn, R.id.list_btn_2, R.id.list_detail, R.id.clear_cache, R.id.recycler, R.id.recycler_2, R.id.list_detail_list, R.id.web_detail, R.id.danmaku_video, R.id.fragment_video,
             R.id.more_type, R.id.input_type, R.id.open_btn_empty, R.id.open_control, R.id.open_filter, R.id.open_btn_pick, R.id.open_btn_auto, R.id.open_scroll, R.id.open_window, R.id.open_btn_ad,
-            R.id.open_btn_multi, R.id.open_btn_ad2, R.id.open_list_ad, R.id.open_custom_exo, R.id.open_simple, R.id.open_switch})
+            R.id.open_btn_multi, R.id.open_btn_ad2, R.id.open_list_ad, R.id.open_custom_exo, R.id.open_simple, R.id.open_switch,R.id.open_custom_exo2})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.open_simple:
@@ -153,6 +155,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.open_custom_exo:
                 //多个同时播放
                 JumpUtils.goToDetailExoListPlayer(this);
+                break;
+            case R.id.open_custom_exo2:
+                //多个同时播放
+               startActivity(new Intent(this, DetailExoListPlayer2.class));
                 break;
             case R.id.open_switch:
                 JumpUtils.goToSwitch(this);
