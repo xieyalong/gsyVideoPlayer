@@ -24,7 +24,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * 类似微博视频，滑动到具体位置自动播放
+ * 类似微博视频，滑动到具体位置自动播放//
  */
 public class AutoPlayRecyclerViewActivity extends AppCompatActivity {
 
